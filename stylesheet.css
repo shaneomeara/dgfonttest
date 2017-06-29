@@ -12,11 +12,13 @@ body {
 }
 
 h1 {
+	font-family: '20db', Arial, sans-serif;
 	color: red;
 	font-size: 96px;
 }
 
 p {
+	font-family: '20db-webfont', Arial, sans-serif;
 	color: grey;
 	font-size: 48px;
 }
