@@ -1,13 +1,22 @@
 @font-face{ 
 	font-family: 'MyWebFont';
-	src: url('WebFont.eot');
-	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-	     url('WebFont.woff') format('woff'),
-	     url('WebFont.ttf') format('truetype'),
-	     url('WebFont.svg#webfont') format('svg');
+	src: url('20db-webfont.eot');
+	src: url('20db-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('20db-webfont.woff') format('woff'),
+	     url('20db-webfont.ttf') format('truetype'),
+	     url('20db-webfont.svg#webfont') format('svg');
+}
+
+body {
+	font-family: '20db-webfont', Arial, sans-serif;
 }
 
 h1 {
-	font-family: 'WebFont', Arial, sans-serif;
+	color: red;
+	font-size: 96px;
+}
 
+p {
+	color: grey;
+	font-size: 48px;
 }
